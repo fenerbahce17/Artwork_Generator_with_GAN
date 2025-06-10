@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Art Generator</title>
+</head>
+<body style="text-align: center;">
+    <h1>Yapay Zeka ile Sanat Eseri Üret</h1>
+    <form action="/generate">
+        <button type="submit">Sanat Eseri Üret</button>
+    </form>
+
+    {% if image_generated %}
+        <h2>Netleştirilmiş ve Yüksek Çözünürlük Görsel:</h2>
+        <img src="{{ url_for('static', filename='upscaled_sharpened_generated.png') }}" width="512">
+    {% endif %}
+</body>
+</html>
