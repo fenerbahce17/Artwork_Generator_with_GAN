@@ -19,7 +19,7 @@ Dataset should be organized in subfolders for each class/art style.
 This project can be extended with transfer learning (e.g., using VGG16, ResNet).
 
 
-📷 Example Art Styles
+ Example Art Styles
 Impressionism
 
 Cubism
